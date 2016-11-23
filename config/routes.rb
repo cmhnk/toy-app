@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # this refers to the hello method in the application_controller file
+  root 'application#hello'
 end
