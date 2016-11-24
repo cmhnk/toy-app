@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :microposts
   # the strange notation ':users' is a symbol, which we'll learn
   # more about
   resources :users
